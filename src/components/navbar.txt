@@ -1,0 +1,47 @@
+import React from 'react'
+import Navhamburger from '../Navhamburger'
+
+function Navbar() {
+  return (
+    <div>
+    
+<header class=" ">
+    <nav class="flex justify-between items-left w-auto ">
+    
+    <div class="nav-links duration-500 md:static bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%]  md:w-auto  w-full flex items-center  ">
+    <ul class="flex md:items-left md:gap-[2vw] gap-4 font-bold  bg-green-700 text-white pl-5 pb-3 pt-3 w-screen rounded-md ">
+      <li class="hover:text-orange-400  cursor-pointer" onClick={() => navigate('/')}>Home</li>
+      <li class="hover:text-orange-400  cursor-pointer" onClick={() => navigate('/ourmenu')}>About</li>
+      <li class="hover:text-orange-400  cursor-pointer" onClick={() => navigate('/')}>Documents</li>
+      
+      <li class="hover:text-orange-400  cursor-pointer" onClick={() => navigate('/')}>Schemes & Programs</li>
+      <li class="hover:text-orange-400 cursor-pointer" onClick={() => navigate('/')}>e-Services</li>
+
+      <li class="hover:text-orange-400 cursor-pointer" onClick={() => navigate('/')}>Gallery</li>
+
+      <li class="hover:text-orange-400 cursor-pointer" onClick={() => navigate('/')}>UNIFIED MIS</li>
+
+      <li class="hover:text-orange-400 cursor-pointer" onClick={() => navigate('/')}>Careers</li>
+
+      
+      <li class="hover:text-orange-400 cursor-pointer" onClick={() => navigate('/')}>Login
+      <ion-icon onclick="onToggleMenu(this)" name="menu-outline menu" class="text-3xl cursor-pointer md:hidden" ></ion-icon>
+   
+      </li>
+
+     <li class="hover:text-orange-400  cursor-pointer" onClick={() => navigate('/')}>Contact US</li>
+
+      
+       
+            
+    </ul>
+    </div>
+     
+    </nav>
+  </header>
+    
+    </div>
+  )
+}
+
+export default Navbar

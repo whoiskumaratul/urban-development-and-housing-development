@@ -1,0 +1,25 @@
+{
+    "schoolData" : [
+        {
+            "id": 1,
+            "name": "Aditya",
+            "Roll NO.": 3434
+        },
+        {
+            "id": 2,
+            "name": "Aditya",
+            "Roll NO.": 3434
+        }
+    ],
+
+    "collegeData" : [
+        {"id": 1,
+            "name": "Aditya",
+            "Roll NO.": 3434
+        },
+        {"id": 2,
+            "name": "Aditya",
+            "Roll NO.": 3434
+        }
+    ]
+}

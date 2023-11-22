@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* *::first-letter {
+    color: red;
+    font-weight: bold;
+} */
+
+* {
+    margin:0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: aliceblue; /*#C9E7FF */
+    /* font-family:  Tahoma; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    /* font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif; */
+
+}
